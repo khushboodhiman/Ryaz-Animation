@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #04132D;
+    width: 100%;
+    height: 100vh;
+}
+
+.green-gradient {
+    width: 282px;
+    height: 485px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-282px);
+    background: linear-gradient(180deg, #4DE6AF 0%, #09B477 100%);
+    filter: blur(500px);
+    border-radius: 5px 0px 5px 5px;
+}
+
+.blue-gradient {
+    position: absolute;
+    width: 282px;
+    height: 243px;
+    left: 70%;
+    top: 25%;
+    transform: translateX(-282px);
+    background: #9892E6;
+    filter: blur(500px);
+    border-radius: 0px 5px 5px 0px;
+}
+
+.main {
+    height: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50px, -50px);
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(180deg, #4DE6AF 0%, #09B477 100%);
+    border-radius: 5px 0px 5px 5px;
+}
+
+.right {
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(180deg, #4DE6AF 0%, #09B477 100%);
+    border-radius: 0px 5px 5px 0px;
+}
+
+.ryaz {
+    font-family: Brandon Grotesque;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 108px;
+    letter-spacing: 0.25em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 42%;
+    left: 30%;
+}
