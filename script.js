@@ -1,7 +1,24 @@
 anime ({
+  targets: '.green-gradient',
+  opacity: [0, 1],
+  rotate: 360,
+  translateX: -100,
+  duration: 8000
+});
+
+anime ({
+  targets: '.blue-gradient',
+  delay: 500,
+  opacity: [0, 1],
+  rotate: 360,
+  translateX: 100,
+  duration: 8000
+});
+
+anime ({
   targets: '.logo',
   keyframes: [
-    { delay: 800 , scale: 0.5, duration: 800 },
+    { delay: 500 , scale: 0.5, duration: 800 },
     { delay: 100 , translateX: -400, duration: 1000 },
   ],
   easing: 'easeInSine'
