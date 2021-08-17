@@ -40,16 +40,15 @@ body {
     box-sizing: border-box;
     height: 100vh;
     display: flex;
-    justify-content: center;
-
+    align-items:center;
 }
 
 .logo {
-    width: 77px;
-    height: 77px;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    top: 47%;
-    left: 50%;
+    top: 35%;
+    left: 46%;
     transform: translate(-50px, -50px);
     display: flex;
 }
@@ -70,12 +69,48 @@ body {
 
 .ryaz {
     font-family: Brandon Grotesque;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 108px;
+    font-size: 107px;
+    line-height: 107px;
     letter-spacing: 0.25em;
     color: #FFFFFF;
     position: absolute;
-    top: 42%;
-    left: 30%;
+    top: 37%;
+    left: 17%;
+    opacity: 0;
+    font-weight: 700;
+}
+  
+.ryaz .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+
+.ryaz .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+}
+
+.ryaz .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.tagline {
+    font-family: Brandon Grotesque;
+    font-weight: 330;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 57%;
+    width: 100%;
+    text-align: center;
 }
