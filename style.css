@@ -19,7 +19,7 @@ body {
     left: 35%;
     transform: translate(-282px);
     background: linear-gradient(180deg, #4DE6AF 0%, #09B477 100%);
-    filter: blur(200px);
+    filter: blur(150px);
     border-radius: 5px 0px 5px 5px;
 }
 
@@ -75,7 +75,7 @@ body {
     color: #FFFFFF;
     position: absolute;
     top: 37%;
-    left: 17%;
+    left: 14%;
     opacity: 0;
     font-weight: 700;
 }
