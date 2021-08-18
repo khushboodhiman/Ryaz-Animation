@@ -1,3 +1,5 @@
+const anime = require('animejs');
+
 anime ({
   targets: '.green-gradient',
   opacity: [0, 1],
