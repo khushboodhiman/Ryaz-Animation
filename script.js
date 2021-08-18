@@ -1,3 +1,5 @@
+document.querySelector('.ryaz').style.display="none";
+
 anime ({
   targets: '.green-gradient',
   opacity: [0, 1],
@@ -19,13 +21,17 @@ anime ({
   targets: '.logo',
   keyframes: [
     { delay: 500 , scale: 0.5, duration: 800 },
-    { delay: 100 , translateX: -400, duration: 1000 },
+    { delay: 100 , duration: 1000 },
   ],
   easing: 'easeInSine'
 });
 
 var textWrapper = document.querySelector('.ryaz .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
+
+setTimeout(() => {
+  document.querySelector('.ryaz').style.display="block";
+}, 3000);
 
 anime.timeline()
 .add({
