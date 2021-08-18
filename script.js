@@ -2,7 +2,7 @@ anime ({
   targets: '.green-gradient',
   opacity: [0, 1],
   rotate: 360,
-  translateX: -100,
+  translateX: -70,
   duration: 8000
 });
 
@@ -11,7 +11,7 @@ anime ({
   delay: 500,
   opacity: [0, 1],
   rotate: 360,
-  translateX: 100,
+  translateX: 70,
   duration: 8000
 });
 
