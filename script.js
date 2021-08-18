@@ -1,4 +1,4 @@
-const anime = require('animejs');
+const anime = required('animejs');
 
 anime ({
   targets: '.green-gradient',
