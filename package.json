@@ -1,5 +1,6 @@
 {
-  "dependencies": {
-    "animejs": "^3.2.1"
+  "devDependencies": {
+    "animejs": "^3.2.1",
+    "gh-pages": "^3.2.3"
   }
 }
